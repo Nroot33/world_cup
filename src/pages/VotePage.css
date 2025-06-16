@@ -1,0 +1,112 @@
+.vote-page {
+  max-width: 480px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../assets/mobileback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vote-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffdd99;
+  text-shadow: 0 0 10px #ff6600, 0 0 20px #ff3300, 0 0 40px #ff0000,
+    0 0 60px #cc0000, 0 0 80px #990000;
+  animation: flicker 1s infinite alternate;
+  font-family: "Cafe24Ssurround";
+}
+
+@keyframes flicker {
+  0% {
+    text-shadow: 0 0 10px #ff6600, 0 0 20px #ff3300, 0 0 40px #ff0000;
+  }
+  100% {
+    text-shadow: 0 0 20px #ffaa00, 0 0 30px #ff6600, 0 0 50px #ff0000;
+  }
+}
+.voter-id {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.match-section {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.match-title {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 100px;
+}
+
+.waiting-message {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 40px;
+  background-color: #555;
+  padding: 10px 100px;
+  border-radius: 20px;
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.horizontal-vote-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap; /* 모바일 대비 */
+}
+
+.horizontal-vote-button {
+  flex: 1;
+  min-width: 140px;
+  max-width: 180px;
+  padding: 10px;
+  aspect-ratio: 1/1;
+  border: none;
+  border-radius: 16px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 5px solid #555;
+  transition: transform 0.15s ease-in-out, background-color 0.2s;
+}
+
+.horizontal-vote-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.03);
+}
+
+.button-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.button-artist {
+  font-size: 12px;
+  color: #666;
+}
