@@ -20,7 +20,7 @@ export default function BroadcastPage() {
   const jsonUrl = `https://catworldcup.s3.ap-northeast-2.amazonaws.com/${mode}worldcup.json?ts=${timestamp}`;
 
   useEffect(() => {
-    const ws = new WebSocket("ws://13.209.65.222:8080");
+    const ws = new WebSocket("wss://13.209.65.222:8080");
     ws.onopen = () => {
       ws.send(
         JSON.stringify({
