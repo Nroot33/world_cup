@@ -42,7 +42,7 @@ export default function VoterPage() {
   useEffect(() => {
     if (!voterIdRef.current || !mode) return;
 
-    const ws = new WebSocket("wss://13.209.65.222:8080");
+    const ws = new WebSocket("ws://13.209.65.222:8080");
     ws.onopen = () => {
       ws.send(
         JSON.stringify({
