@@ -242,13 +242,22 @@ export default function BroadcastPage() {
                       : "")
                   }
                 >
-                  <img
-                    src={currentPair[0].imageUrl}
-                    alt={currentPair[0].title}
-                  />
+                  {currentPair[0].imageUrl.endsWith(".mp4") ? (
+                    <video
+                      src={currentPair[0].imageUrl}
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                    />
+                  ) : (
+                    <img
+                      src={currentPair[0].imageUrl}
+                      alt={currentPair[0].title}
+                    />
+                  )}
 
                   <h3>{currentPair[0].title}</h3>
-                  <p>{currentPair[0].artist}</p>
 
                   {winnerData && (
                     <p style={{ fontWeight: "bold" }}>
@@ -323,13 +332,22 @@ export default function BroadcastPage() {
                       : "")
                   }
                 >
-                  <img
-                    src={currentPair[1].imageUrl}
-                    alt={currentPair[1].title}
-                  />
+                  {currentPair[1].imageUrl.endsWith(".mp4") ? (
+                    <video
+                      src={currentPair[1].imageUrl}
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                    />
+                  ) : (
+                    <img
+                      src={currentPair[1].imageUrl}
+                      alt={currentPair[1].title}
+                    />
+                  )}
 
                   <h3>{currentPair[1].title}</h3>
-                  <p>{currentPair[1].artist}</p>
 
                   {winnerData && (
                     <p style={{ fontWeight: "bold" }}>

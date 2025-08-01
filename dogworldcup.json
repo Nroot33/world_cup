@@ -1,200 +1,42 @@
 [
   {
     "id": "dog01",
-    "title": "치즈 멍멍이",
-    "artist": "짖는작가",
-    "imageUrl": "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg"
+    "title": "짐볼 올라가기",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(1).mp4"
   },
   {
     "id": "dog02",
-    "title": "고독한 시바",
-    "artist": "멍스타",
-    "imageUrl": "https://images.dog.ceo/breeds/shiba/shiba-13.jpg"
+    "title": "간식 받아먹기 스킬",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(2).mp4"
   },
   {
     "id": "dog03",
-    "title": "잔망 잭슨",
-    "artist": "개그림러",
-    "imageUrl": "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1900.jpg"
+    "title": "고구마 거절 개인기",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(3).mp4"
   },
   {
     "id": "dog04",
-    "title": "비오는 날 푸들",
-    "artist": "푸푸푸",
-    "imageUrl": "https://images.dog.ceo/breeds/poodle-toy/n02113624_9550.jpg"
+    "title": "고추 개인기",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(4).mp4"
   },
   {
     "id": "dog05",
-    "title": "고개숙인 콜리",
-    "artist": "머털개",
-    "imageUrl": "https://images.dog.ceo/breeds/collie-border/n02106166_1667.jpg"
+    "title": "구찌",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(5).jpeg"
   },
   {
     "id": "dog06",
-    "title": "폭풍질주 리트리버",
-    "artist": "헉헉이",
-    "imageUrl": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2147.jpg"
+    "title": "드라이할 때 협조적인 강아지",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(6).mp4"
   },
   {
     "id": "dog07",
-    "title": "멍무룩",
-    "artist": "눈물개",
-    "imageUrl": "https://images.dog.ceo/breeds/bulldog-french/n02108915_3286.jpg"
+    "title": "아자아자 파이팅!",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(7).mp4"
   },
   {
     "id": "dog08",
-    "title": "햇살 아래 보더콜리",
-    "artist": "산책왕",
-    "imageUrl": "https://images.dog.ceo/breeds/collie-border/n02106166_1779.jpg"
-  },
-  {
-    "id": "dog09",
-    "title": "슬픈 닥스훈트",
-    "artist": "쪼리",
-    "imageUrl": "https://images.dog.ceo/breeds/dachshund/n02085782_5870.jpg"
-  },
-  {
-    "id": "dog10",
-    "title": "몽환의 포메라니안",
-    "artist": "포포포",
-    "imageUrl": "https://images.dog.ceo/breeds/pomeranian/n02112018_3925.jpg"
-  },
-  {
-    "id": "dog11",
-    "title": "도그냥이",
-    "artist": "잡종혼",
-    "imageUrl": "https://images.dog.ceo/breeds/mix/CollieSheltie.jpg"
-  },
-  {
-    "id": "dog12",
-    "title": "찌푸린 스피츠",
-    "artist": "백설멍",
-    "imageUrl": "https://images.dog.ceo/breeds/keeshond/n02112350_7343.jpg"
-  },
-  {
-    "id": "dog13",
-    "title": "이단 뛰기 웰시코기",
-    "artist": "다리짧음",
-    "imageUrl": "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_10112.jpg"
-  },
-  {
-    "id": "dog14",
-    "title": "은둔한 말티즈",
-    "artist": "숨멍이",
-    "imageUrl": "https://images.dog.ceo/breeds/maltese/n02085936_4376.jpg"
-  },
-  {
-    "id": "dog15",
-    "title": "헝클어진 사모예드",
-    "artist": "솜사탕",
-    "imageUrl": "https://images.dog.ceo/breeds/samoyed/n02111889_4413.jpg"
-  },
-  {
-    "id": "dog16",
-    "title": "다크 슈나우저",
-    "artist": "수염쟁이",
-    "imageUrl": "https://images.dog.ceo/breeds/schnauzer-giant/n02097130_5629.jpg"
-  },
-  {
-    "id": "dog17",
-    "title": "하늘보는 셰퍼드",
-    "artist": "경비견",
-    "imageUrl": "https://images.dog.ceo/breeds/germanshepherd/n02106662_1133.jpg"
-  },
-  {
-    "id": "dog18",
-    "title": "콩알 탄 도베르만",
-    "artist": "근엄멍",
-    "imageUrl": "https://images.dog.ceo/breeds/doberman/n02107166_4050.jpg"
-  },
-  {
-    "id": "dog19",
-    "title": "겨울왕국 허스키",
-    "artist": "하울링",
-    "imageUrl": "https://images.dog.ceo/breeds/husky/n02110185_1469.jpg"
-  },
-  {
-    "id": "dog20",
-    "title": "낙엽 덮인 래브라도",
-    "artist": "헌터",
-    "imageUrl": "https://images.dog.ceo/breeds/labrador/n02099712_5298.jpg"
-  },
-  {
-    "id": "dog21",
-    "title": "트렌디 치와와",
-    "artist": "멍패션",
-    "imageUrl": "https://images.dog.ceo/breeds/chihuahua/n02085620_5243.jpg"
-  },
-  {
-    "id": "dog22",
-    "title": "감성 풍산개",
-    "artist": "토종혼",
-    "imageUrl": "https://images.dog.ceo/breeds/jindo/n02107166_12382.jpg"
-  },
-  {
-    "id": "dog23",
-    "title": "흙먼지 진돗개",
-    "artist": "국개대표",
-    "imageUrl": "https://images.dog.ceo/breeds/jindo/n02107166_12081.jpg"
-  },
-  {
-    "id": "dog24",
-    "title": "골목길 똥개",
-    "artist": "길바닥레전드",
-    "imageUrl": "https://images.dog.ceo/breeds/terrier-patterdale/dog-1268559_640.jpg"
-  },
-  {
-    "id": "dog25",
-    "title": "졸린 불독",
-    "artist": "드르렁",
-    "imageUrl": "https://images.dog.ceo/breeds/bulldog-english/jager-2.jpg"
-  },
-  {
-    "id": "dog26",
-    "title": "푸들 흑마법사",
-    "artist": "펌킨푸",
-    "imageUrl": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_3786.jpg"
-  },
-  {
-    "id": "dog27",
-    "title": "레몬 탄 장모치와와",
-    "artist": "노랑펀치",
-    "imageUrl": "https://images.dog.ceo/breeds/chihuahua/n02085620_685.jpg"
-  },
-  {
-    "id": "dog28",
-    "title": "코기 백무쌍",
-    "artist": "두꺼운다리",
-    "imageUrl": "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_3584.jpg"
-  },
-  {
-    "id": "dog29",
-    "title": "망상에 빠진 파피용",
-    "artist": "날개짓",
-    "imageUrl": "https://images.dog.ceo/breeds/papillon/n02086910_5577.jpg"
-  },
-  {
-    "id": "dog30",
-    "title": "성난 핏불",
-    "artist": "분노조절",
-    "imageUrl": "https://images.dog.ceo/breeds/pitbull/pitbull-dog.jpg"
-  },
-  {
-    "id": "dog31",
-    "title": "잔디먹는 퍼그",
-    "artist": "헛개비",
-    "imageUrl": "https://images.dog.ceo/breeds/pug/n02110958_16833.jpg"
-  },
-  {
-    "id": "dog32",
-    "title": "진지한 테리어",
-    "artist": "철학견",
-    "imageUrl": "https://images.dog.ceo/breeds/terrier-border/n02093754_3240.jpg"
-  },
-  {
-    "id": "dog33",
-    "title": "코드컷 강아지",
-    "artist": "디자인러",
-    "imageUrl": "https://images.dog.ceo/breeds/terrier-fox/n02095314_1387.jpg"
+    "title": "윙크 강아지",
+    "imageUrl": "https://catworldcup.s3.ap-northeast-2.amazonaws.com/dog_photo/dog+(8).mp4"
   }
 ]

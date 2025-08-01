@@ -146,7 +146,8 @@
   transition: transform 0.3s, border-color 0.3s;
 }
 
-.candidate-card img {
+.candidate-card img,
+video {
   width: 90%;
   aspect-ratio: 1/1;
   border-radius: 12px;

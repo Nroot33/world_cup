@@ -146,9 +146,6 @@ export default function VoterPage() {
                 onClick={() => handleVote(cat.id)}
               >
                 <div className="button-title">{cat.title}</div>
-                <div className="button-artist">
-                  작가: {cat.artist || cat.id}
-                </div>
               </button>
             ))}
           </div>
